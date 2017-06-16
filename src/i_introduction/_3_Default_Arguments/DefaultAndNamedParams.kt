@@ -15,7 +15,7 @@ fun todoTask3(): Nothing = TODO(
     references = { name: String -> JavaCode3().foo(name); foo(name) })
 
 fun foo(name: String, number : Int = 42, toUpperCase: Boolean = false): String {
-    return "hello";
+    return (if(toUpperCase) name.toUpperCase() else name)  + number
 }
 
 fun task3(): String {
