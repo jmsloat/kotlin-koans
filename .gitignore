@@ -4,3 +4,4 @@ workspace.xml
 .gradle
 build
 local.properties
+kotlin-koans.iml
