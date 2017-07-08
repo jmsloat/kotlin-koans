@@ -24,7 +24,7 @@ fun task29_1(today: MyDate): MyDate {
 }
 
 fun task29_2(today: MyDate): MyDate {
-//    return today + YEAR * 2 + WEEK * 3 + DAY * 5
-    return MyDate(1, 1, 1)
+    return today + YEAR * 2 + WEEK * 3 + DAY * 5
+//    return MyDate(1, 1, 1)
 }
 
